@@ -1,3 +1,4 @@
+﻿![Version](https://img.shields.io/badge/version-v1.1.0-blue.svg)
 # Agentic Code Security Auditor 🛡️🤖
 
 A lightweight static-analysis security scanner that detects vulnerabilities using AST traversal and uses an AI agent to explain findings and suggest fixes.
@@ -71,3 +72,4 @@ api_secret = os.environ.get("API_SECRET")
 ## Architecture
 This project is built to demonstrate engineering first, AI second. 
 The core engine (`scanner/core.py`) is written using Python's native `ast` module to ensure strict, deterministic detection of antipatterns. The LLM is strictly positioned as a presentation and remediation layer (`agent/remediator.py`).
+

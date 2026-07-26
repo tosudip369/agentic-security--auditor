@@ -1,4 +1,4 @@
-import sys
+﻿import sys
 import json
 import asyncio
 import os
@@ -101,3 +101,4 @@ if __name__ == "__main__":
         'snippet': "query = f'SELECT * FROM users WHERE id = {user_id}'\\ncursor.execute(query)"
     }
     asyncio.run(explain_and_fix(dummy_finding))
+
